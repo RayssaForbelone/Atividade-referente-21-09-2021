@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title> 
+  </head>
+
+  <body>
+    <script language="javascript">
+    var a;
+    var b;
+
+    a = parseFloat(window.prompt("Digite o primeiro valor: "));
+
+    do
+    {
+    b = parseFloat(window.prompt("Digite o segundo valor, tal deve ser maior que o primeiro (caso contrário, será solicitado novamente)"));
+    } while(b < a | b == a);
+
+    document.write("parabéns, você cumpriu as ordens!");
+
+    </script>
+  </body>
+</html>
